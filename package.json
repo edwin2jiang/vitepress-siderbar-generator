@@ -1,0 +1,23 @@
+{
+  "name": "vitepress-siderbar-generator",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "bin": {
+    "vsg": "./bin/index.js"
+  },
+  "keywords": [
+    "vitepress",
+    "sidebar",
+    "generator"
+  ],
+  "author": "edwin jiang",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.0"
+  }
+}
